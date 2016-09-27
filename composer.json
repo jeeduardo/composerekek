@@ -1,13 +1,22 @@
 {
     "name": "jeeduardo/independent",
-    "description": "Composer ekek",
-    "type":"magento2-module",
-    "version":"1.0.1",
-    "require": {
-        "php": "~5.6.0|~7.0.0"
-    },
     "autoload": {
-        "files": ["registration.php"],
-        "psr-4": {"Josephson\\Independent\\":""}
+        "psr-4": {"Josephson\\Independent\\":""},
+        "files": ["registration.php"]
+    },
+    "license": "proprietary",
+    "type": "magento2-module",
+    "description": "test composer package",
+    "authors":[
+        {
+            "name":"Josephson Eduardo",
+            "email":"josephson.eduardo@gmail.com"
+        }
+    ],
+    "repositories": {
+        "acidgreen": {
+            "type": "vcs",
+            "url": "git@github.com:jeeduardo/composerekek.git"
+        }
     }
 }
